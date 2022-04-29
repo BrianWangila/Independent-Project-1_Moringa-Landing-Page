@@ -1,0 +1,31 @@
+ul {
+  border: 3px dotted grey;
+  height: 100px;
+  width: 100px;
+  overflow: auto;
+  background-color: rgb(53, 122, 122);
+}
+h3 {
+  border-style: double;
+  border-width: 5px;
+  border-radius: 50px;
+  border-color: brown;
+  padding: 5px;
+  /* OR border: double red 20px;*/
+}
+img {
+  height: 200;
+  width: 200;
+}
+h2 {
+  border-color: violet;
+  border-radius: 20%;
+  padding: 7px;
+  border: rgb(4, 4, 27) solid;
+}
+h1 {
+  text-align: center;
+  background-color: bisque;
+  color: brown;
+  padding: 10px;
+}
