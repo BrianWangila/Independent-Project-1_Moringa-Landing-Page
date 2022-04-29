@@ -1,8 +1,79 @@
-html. body {
+html, body {
   margin: 0;
-  padding: 0px;
+  padding: 5px;
   font-style: 'Nunito';
+
+}
+.header {
+  background-color: bisque;
+  width: 100%;
+
+}
+img {
+  height: 200px;
+  width: 200px;
 }
 h1 {
+  color: rgb(237, 64, 104);
+}
+ul {
+  display: inline;
+  list-style: none;
+}
+button {
+  background-color: #EC4067;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  color: white;
+  font-size: small;
+}
+.button2 {
+  background-color: white;
+  border-radius: 0px;
+  border: #EC4067;
+  color: black;
 
+}
+.tech-mentors {
+  
+}
+.mentors {
+
+}
+.mentors h5 {
+  color: red;
+  display: block;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 3px;
+}
+.column p {
+  font-size: small;
+}
+.column button {
+  font-size: x-small;
+  
+}
+.mentors::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*.name {
+  position: absolute;
+  bottom: 8px;
+  left: 16px; */
+}
+.moringa img {
+  display: inline;
+}
+
+.footer {
+  background-color: rgb(161, 153, 153);
+  text-align: center;
+  color: black;
+  padding: 18px
 }
