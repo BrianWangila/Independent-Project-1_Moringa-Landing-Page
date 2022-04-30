@@ -10,11 +10,18 @@ html, body {
 
 }
 img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 350px;
 }
 h1 {
   color: rgb(237, 64, 104);
+}
+h3 {
+  color: #EC4067
+}
+.stories h3 {
+  color: black;
+  font-size: small;
 }
 ul {
   display: inline;
@@ -35,12 +42,7 @@ button {
   color: black;
 
 }
-.tech-mentors {
-  
-}
-.mentors {
 
-}
 .mentors h5 {
   color: red;
   display: block;
@@ -65,8 +67,8 @@ button {
 /*.name {
   position: absolute;
   bottom: 8px;
-  left: 16px; */
-}
+  left: 16px;
+}*/
 .moringa img {
   display: inline;
 }
