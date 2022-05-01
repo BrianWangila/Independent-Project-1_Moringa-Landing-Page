@@ -74,11 +74,6 @@ button {
 .column button {
   font-size: x-small;
 }
-.name1 {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
 .mentors::after {
   content: "";
   clear: both;
