@@ -2,11 +2,14 @@ html, body {
   margin: 0;
   padding: 10px;
   font-style: 'Nunito';
+  width: 100%;
 
 }
 .header {
   background-color: bisque;
   width: 100%;
+  padding: 10px;
+  padding-left: 20px;
 
 }
 img {
