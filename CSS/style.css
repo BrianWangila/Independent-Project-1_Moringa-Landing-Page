@@ -89,12 +89,12 @@ button {
 }
 .column {
   float: left;
-  width: 24%;
-  padding: 3px;
+  width: 20%;
+  padding:10px;
 }
 .column p {
   font-size: small;
-  text-align: left;
+  
 }
 .column button {
   font-size: x-small;
