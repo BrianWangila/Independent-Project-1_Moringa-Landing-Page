@@ -27,9 +27,7 @@ h1 {
 h3 {
   color: #EC4067
 }
-.stories {
-  
-}
+
 .stories .orientation {
   background-color:azure;
   margin-bottom: 15px;
@@ -70,7 +68,6 @@ button {
   padding: 6px;
   border-color: #EC4067;
   color: black;
-
 }
 
 .mentors {
@@ -79,13 +76,11 @@ button {
   float: left;
   text-align: center;
   margin-bottom: 25px;
-
 }
 .mentors h5 {
   color: red;
   display: block;
   font-weight: 500;
-
 }
 .column {
   float: left;
@@ -111,8 +106,25 @@ button {
 .moringa img {
   display: inline;
 }
-.project {
+.cool-bike {
+  background-color: azure;
+  margin-top: 20px;
+  padding: 15px;
+}
+.project button {
+  margin-bottom: 12px;
+}
+.bike img {
 
+  height: 400px;
+  width: 750px;
+  float: left;
+}
+.sure {
+  padding: 10px;
+  padding-bottom: 50px;
+  margin: 10px;
+  
 }
 .footer {
   background-color: rgb(161, 153, 153);
