@@ -1,28 +1,52 @@
 html, body {
   margin: 0;
-  padding: 10px;
+  padding: 5px 15px 5px 15px ;
   font-style: 'Nunito';
   
 
 }
 .header {
   background-color: bisque;
-  padding: 10px;
+  padding: 15px;
   padding-left: 20px;
 
 }
 img {
   height: 300px;
-  width: 350px;
+  width: 450px;
 }
+
 .stories img {
-  max-width: fit-content;
+  width:600px;
+  height: 350px;
+  
 }
 h1 {
   color: rgb(237, 64, 104);
 }
 h3 {
   color: #EC4067
+}
+.stories {
+  
+}
+.stories .orientation {
+  background-color:azure;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.stories .board-meeting {
+  background-color: rgb(213, 223, 223);
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.stories .graduation-party {
+  background-color: azure;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.stories button {
+  padding: 10px 15px 10px 15px;
 }
 .stories h3 {
   color: black;
@@ -87,7 +111,9 @@ button {
 .moringa img {
   display: inline;
 }
+.project {
 
+}
 .footer {
   background-color: rgb(161, 153, 153);
   text-align: center;
