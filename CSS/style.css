@@ -11,18 +11,18 @@ html, body {
   padding-left: 20px;
   margin-bottom: 30px;
 }
-.header4 {
+/*.header4 {
   background-color: #EC4067;
   border-radius: 5px;
   border: none;
   padding: 6px 10px 6px 10px;
   color: white;
   font-size: small;
-}
+}*/
 .moringa {
   background-color: #e7c6ce;
-  padding: 50px 50px 70px;
-  width: 50%;
+  padding: 50px 40px 70px;
+  width: 40%;
   display: inline-block;
   vertical-align: top;
 }
@@ -30,14 +30,14 @@ html, body {
 .moringa2 {
 width: 40%;
 display:inline;
-padding-right: 50px;
+padding-right: 40px;
 }
 .moringa2 img {
   display: inline;
   width: 500px;
   height: 350;
   background-color: rgb(250, 246, 242);
-  padding: 20px;
+  padding: 25px;
 }
 img {
   height: 300px;
@@ -143,7 +143,7 @@ button {
 .cool-bike {
   background-color: azure;
   margin-top: 20px;
-  padding: 15px;
+  padding: 12px;
 }
 .project button {
   margin-bottom: 12px;
@@ -151,9 +151,9 @@ button {
 .bike img {
 
   height: 400px;
-  width: 750px;
+  width: 650px;
   float: left;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .sure {
   padding: 10px;
