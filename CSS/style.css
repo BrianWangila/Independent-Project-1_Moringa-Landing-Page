@@ -9,8 +9,27 @@ html, body {
   background-color: bisque;
   padding: 15px;
   padding-left: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
+}
+.moringa {
+  background-color: #e7c6ce;
+  padding: 70px 50px 95px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.moringa2 {
+width: 40%;
+display:inline;
+padding-right: 50px;
+}
+.moringa2 img {
+  display: inline;
+  width: 500px;
+  height: 350;
+  background-color: rgb(250, 246, 242);
+  padding: 20px;
 }
 img {
   height: 300px;
@@ -20,7 +39,6 @@ img {
 .stories img {
   width:600px;
   height: 350px;
-  
 }
 h1 {
   color: rgb(237, 64, 104);
@@ -109,9 +127,7 @@ button {
   bottom: 8px;
   left: 16px;
 }*/
-.moringa img {
-  display: inline;
-}
+
 .cool-bike {
   background-color: azure;
   margin-top: 20px;
@@ -125,6 +141,7 @@ button {
   height: 400px;
   width: 750px;
   float: left;
+  margin-left: 150px;
 }
 .sure {
   padding: 10px;
