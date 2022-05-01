@@ -2,8 +2,6 @@ html, body {
   margin: 0;
   padding: 5px 15px 5px 15px ;
   font-style: 'Nunito';
-  
-
 }
 .header {
   background-color: bisque;
@@ -11,14 +9,6 @@ html, body {
   padding-left: 20px;
   margin-bottom: 30px;
 }
-/*.header4 {
-  background-color: #EC4067;
-  border-radius: 5px;
-  border: none;
-  padding: 6px 10px 6px 10px;
-  color: white;
-  font-size: small;
-}*/
 .moringa {
   background-color: #e7c6ce;
   padding: 50px 40px 70px;
@@ -134,12 +124,6 @@ button {
   clear: both;
   display: table;
 }
-/*.name {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}*/
-
 .cool-bike {
   background-color: azure;
   margin-top: 20px;
