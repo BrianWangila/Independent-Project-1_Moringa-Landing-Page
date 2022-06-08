@@ -130,8 +130,9 @@
     
     .mentors h5 {
         color: red;
-        display: block;
-        font-weight: 500;
+        margin-bottom: 0.2vh;
+        margin-top: -2vh;
+        font-size: smaller;
     }
     
     .mentors button {
@@ -141,15 +142,15 @@
 
     #mentor{
         position: relative;
-        font-size: 10px;
-        top: -4vh;
-        left: -6vw;
+        font-size: smaller;
+        top: -5vh;
+        left: -5vw;
         color: white;
     }
     
     .mentors .column {
         width: 23vw;
-        background-color: #eaf1f1;
+        background-color: #e6ecec;
         margin: 0.6em;
         display: flex;
         flex-direction: column;
