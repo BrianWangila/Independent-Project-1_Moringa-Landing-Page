@@ -12,32 +12,31 @@ body {
     margin-bottom: 30px;
 }
 
+.nurture {
+    width: 95vw;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+
 .moringa {
     background-color: #e7c6ce;
-    padding: 50px 40px 70px;
+    padding: 1em;
     width: 40vw;
     display: inline-block;
     vertical-align: top;
 }
 
 .moringa2 {
-    width: 40vw;
+    width: 60vw;
     display: inline;
-    padding-right: 40px;
 }
 
 .moringa2 img {
     display: inline;
-    width: 500px;
-    height: 350;
+    width: 45vw;
+    height: 35vh;
     background-color: rgb(250, 246, 242);
-    padding: 25px;
-}
-
-img {
-    height: 300px;
-    width: 450px;
-    border: none;
 }
 
 .stories img {
