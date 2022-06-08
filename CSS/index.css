@@ -1,173 +1,174 @@
-html,
-body {
-    margin: 0;
-    padding: 5px 15px 5px 15px;
-    font-style: 'Nunito';
-}
-
-.header {
-    background-color: bisque;
-    padding: 25px;
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
-
-.nurture {
-    width: 95vw;
-    margin: auto;
-    margin-bottom: 30px;
-    display: flex;
-}
-
-.moringa {
-    background-color: #e7c6ce;
-    padding: 1em;
-    width: 40vw;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.moringa2 {
-    width: 60vw;
-    display: inline;
-}
-
-.moringa2 img {
-    display: inline;
-    width: 45vw;
-    height: 35vh;
-    background-color: rgb(250, 246, 242);
-}
-
-.stories img {
-    width: 45vw;
-    height: 35vh;
-}
-
-h1 {
-    color: rgb(237, 64, 104);
-}
-
-h3 {
-    color: #EC4067
-}
-
-.stories .orientation {
-    background-color: azure;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.stories .board-meeting {
-    background-color: #d5dfdf;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.stories .graduation-party {
-    background-color: azure;
-    margin-bottom: 25px;
-    padding: 10px;
-}
-
-.stories button {
-    padding: 10px 15px 10px 15px;
-}
-
-.stories h3 {
-    color: black;
-    font-size: large;
-}
-
-ul {
-    display: inline;
-    list-style: none;
-}
-
-button {
-    background-color: #EC4067;
-    border-radius: 5px;
-    border: none;
-    padding: 6px 10px 6px 10px;
-    color: white;
-    font-size: small;
-}
-
-.button2 {
-    background-color: white;
-    border-radius: 5px;
-    padding: 6px 10px 6px 10px;
-    border-color: #EC4067;
-    color: black;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.mentors {
-    background-color: beige;
-    padding: 10px;
-    padding-bottom: 20px;
-    float: left;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.mentors h5 {
-    color: red;
-    display: block;
-    font-weight: 500;
-}
-
-.mentors button {
-    margin-bottom: 5px;
-}
-
-.column {
-    float: left;
-    width: 20%;
-    padding: 10px;
-}
-
-.column p {
-    font-size: small;
-}
-
-.column button {
-    font-size: x-small;
-}
-
-.mentors::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.cool-bike {
-    background-color: azure;
-    margin-top: 20px;
-    padding: 12px;
-}
-
-.project button {
-    margin-bottom: 12px;
-}
-
-.bike img {
-    height: 40vh;
-    width: 40vw;
-    float: left;
-    margin-left: 100px;
-}
-
-.sure {
-    padding: 10px;
-    padding-bottom: 50px;
-    margin: 10px;
-}
-
-.footer {
-    background-color: rgb(161, 153, 153);
-    text-align: center;
-    color: black;
-    padding: 18px
-}
+    html,
+    body {
+        margin: 0;
+        padding: 5px 15px 5px 15px;
+        font-style: 'Nunito';
+    }
+    
+    .header {
+        background-color: bisque;
+        padding: 25px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .nurture {
+        width: 90vw;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    
+    .moringa {
+        background-color: #e7c6ce;
+        padding: 1em;
+        width: 40vw;
+        /* vertical-align: top; */
+    }
+    
+    .moringa2 img {
+        display: inline;
+        width: 45vw;
+        height: 35vh;
+        background-color: rgb(250, 246, 242);
+    }
+    
+    .stories img {
+        width: 45vw;
+        height: 35vh;
+    }
+    
+    .text {
+        width: 45vw;
+        padding: 1em;
+    }
+    
+    h1 {
+        color: rgb(237, 64, 104);
+    }
+    
+    h3 {
+        color: #EC4067
+    }
+    
+    .stories .orientation {
+        background-color: azure;
+        margin-bottom: 15px;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .stories .board-meeting {
+        background-color: #d5dfdf;
+        margin-bottom: 15px;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .stories .graduation-party {
+        background-color: azure;
+        margin-bottom: 25px;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .stories button {
+        padding: 10px 15px 10px 15px;
+    }
+    
+    .stories h3 {
+        color: black;
+        font-size: large;
+    }
+    
+    ul {
+        display: inline;
+        list-style: none;
+    }
+    
+    button {
+        background-color: #EC4067;
+        border-radius: 5px;
+        border: none;
+        padding: 6px 10px 6px 10px;
+        color: white;
+        font-size: small;
+    }
+    
+    .button2 {
+        background-color: white;
+        border-radius: 5px;
+        padding: 6px 10px 6px 10px;
+        border-color: #EC4067;
+        color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    .mentors {
+        background-color: beige;
+        padding: 10px;
+        padding-bottom: 20px;
+        float: left;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .mentors h5 {
+        color: red;
+        display: block;
+        font-weight: 500;
+    }
+    
+    .mentors button {
+        margin-bottom: 5px;
+    }
+    
+    .column {
+        float: left;
+        width: 20%;
+        padding: 10px;
+    }
+    
+    .column p {
+        font-size: small;
+    }
+    
+    .column button {
+        font-size: x-small;
+    }
+    
+    .mentors::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .cool-bike {
+        background-color: azure;
+        margin-top: 20px;
+        padding: 12px;
+    }
+    
+    .project button {
+        margin-bottom: 12px;
+    }
+    
+    .bike img {
+        height: 40vh;
+        width: 40vw;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    .sure {
+        padding: 10px;
+        padding-bottom: 50px;
+        margin: 10px;
+    }
+    
+    .footer {
+        background-color: rgb(161, 153, 153);
+        text-align: center;
+        color: black;
+        padding: 18px
+    }
