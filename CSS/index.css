@@ -1,15 +1,21 @@
     html,
     body {
         margin: 0;
-        padding: 5px 15px 5px 15px;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
         font-style: 'Nunito';
     }
     
     .header {
         background-color: bisque;
-        padding: 25px;
-        padding-left: 20px;
+        padding: 2em;
+        padding-left: 1em;
         margin-bottom: 30px;
+        display: flex;
+    }
+    
+    .menu {
+        display: inline-block;
     }
     
     .nurture {
@@ -146,20 +152,23 @@
     
     .cool-bike {
         background-color: azure;
-        margin-top: 20px;
-        padding: 12px;
+        padding: 1em;
         display: flex;
+        margin: auto;
     }
     
     .project button {
         margin-bottom: 12px;
     }
     
+    .cool {
+        width: 45vw;
+        padding-right: 1em;
+    }
+    
     .bike img {
         width: 45vw;
-        height: 35vh;
-        float: left;
-        margin-left: 100px;
+        height: 38vh;
     }
     
     .sure {
@@ -172,5 +181,5 @@
         background-color: rgb(161, 153, 153);
         text-align: center;
         color: black;
-        padding: 18px
+        padding: 18px;
     }
