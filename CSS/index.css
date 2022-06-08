@@ -35,6 +35,7 @@
     .stories img {
         width: 45vw;
         height: 35vh;
+        padding: 5px;
     }
     
     .text {
@@ -147,6 +148,7 @@
         background-color: azure;
         margin-top: 20px;
         padding: 12px;
+        display: flex;
     }
     
     .project button {
@@ -154,8 +156,8 @@
     }
     
     .bike img {
-        height: 40vh;
-        width: 40vw;
+        width: 45vw;
+        height: 35vh;
         float: left;
         margin-left: 100px;
     }
