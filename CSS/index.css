@@ -1,8 +1,7 @@
     html,
     body {
         margin: 0;
-        padding-left: 0.3em;
-        padding-right: 0.3em;
+        padding: 0.3em;
         font-style: 'Nunito';
     }
     
@@ -12,9 +11,10 @@
         padding-left: 1em;
         margin-bottom: 30px;
         display: flex;
+        justify-content: space-between;
     }
     
-    .menu {
+    .menu li {
         display: inline-block;
     }
     
@@ -22,6 +22,7 @@
         width: 90vw;
         margin-bottom: 30px;
         display: flex;
+        margin: auto;
     }
     
     .moringa {
@@ -29,6 +30,10 @@
         padding: 1em;
         width: 40vw;
         /* vertical-align: top; */
+    }
+    
+    .moringa ul {
+        display: flex;
     }
     
     .moringa2 img {
@@ -85,11 +90,6 @@
     .stories h3 {
         color: black;
         font-size: large;
-    }
-    
-    ul {
-        display: inline;
-        list-style: none;
     }
     
     button {
